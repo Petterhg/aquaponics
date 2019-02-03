@@ -1,0 +1,19 @@
+{
+  "name": "aqua-api",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node -r dotenv/config server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "dotenv": "6.2.0",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {}
+}
