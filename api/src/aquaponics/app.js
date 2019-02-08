@@ -21,3 +21,5 @@ app.get('/aquaponics', async (req, res) => {
 	const data = await firestore.get(collection)
 	res.status(200).send(data)
 })
+
+module.exports = app

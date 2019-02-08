@@ -27,4 +27,4 @@ async function get (collection) {
 }
 
 module.exports.add = add
-module.exports.read = read
+module.exports.get = get
